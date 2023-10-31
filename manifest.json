@@ -1,0 +1,31 @@
+{
+  "name": "Your Game Name",
+  "short_name": "Game",
+  "description": "Your Game Description.",
+  "icons": [ 
+    {
+      "src": "./testicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF",
+  "orentation": "portrait",
+  "screenshots": [
+    {
+      "src": "./ss1.png",
+      "sizes": "1200x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./ss2.png",
+      "sizes": "800x1200",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
