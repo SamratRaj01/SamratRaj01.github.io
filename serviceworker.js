@@ -5,7 +5,8 @@ const CACHE_NAME = 'PWA-v1';
 const urlsToCache = [
   './',
   './index.html',
-  './index.js',
+  './main.js',
+  './cc.js',
   './style.css',
   './application.js',
   './index.js',
@@ -13,6 +14,7 @@ const urlsToCache = [
   './cocos-js',
   './src',
   './manifest.json',
+  './testicon.png',
   './serviceWorker.js'
   // add all other urls (files) you want to cache
 ];
@@ -22,7 +24,7 @@ self.addEventListener('install', (event) => {
     caches.open(CACHE_NAME)
       .then((cache) => {
         console.log('Opened cache');
-        return cache.addAll(["./"]);
+        return cache.addAll(["/"]);
       })
   );
 });
